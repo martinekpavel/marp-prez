@@ -1,35 +1,12 @@
-#navbar {
-    background-color: #555;
-    color: white;
-    display: flex;
-    justify-content: space-between;
-    padding: 16px;
-    align-items: center;
-
+body {
+    background-color: lightgray;
 }
 
-#navbar a {
-    color: white;
-    text-decoration: none;
-
-    
-
-}
-
-#navbar ul {
-    display: flex;
-    list-style: none;
-    align-items: center;
-}
-
-#navbar ul li a {
-    padding: 10px;
-    margin: 0 4px;
-}
-
-
-#navbar ul li a:hover {
+.container {
     background-color: white;
-    border-radius: 5px;
-    color: red;
+    max-width: 600px;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin: 100px auto;
+    padding: 5px 30px;
 }
