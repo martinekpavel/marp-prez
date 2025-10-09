@@ -1,15 +1,46 @@
-#navbar {
-    background-color: #333;
-    color: white;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 16px;
-    font-size: 24px;
+.big {
+    font-size: 3rem;
     font-weight: bold;
 }
 
-#navbar a {
+body {
+    background-color: grey;
     color: white;
-    text-decoration: none;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.big { /* doplníme */
+    display: none;
+    text-transform: capitalize;
+}
+
+@media(max-width:500px) {
+    body {
+        background-color: red;
+    }
+
+    #smartphone {
+        display: block;
+    }
+}
+
+@media(min-width: 1201px) {
+    body {
+        background-color: black;
+    }
+
+    #widescreen {
+        display: block;
+    }
+}
+
+@media(max-height: 500px) {
+    body {
+        background-color: orange;
+    }
+
+    #landscape {
+        display: block;
+    }
 }
